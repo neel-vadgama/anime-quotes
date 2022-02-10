@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+
 html,
 body {
   padding: 0;
@@ -13,4 +15,72 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.anime-box {
+  display: flex;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.anime-box img {
+  min-width: 300px;
+}
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 2rem;
+  width: 100%;
+}
+.quote-box h2 {
+  display: flex;
+  letter-spacing: 1px;
+  justify-content: space-between;
+  background-color: snow;
+  padding: 12px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  border: 0.5px solid lightgray;
+}
+.quote-box h2 button {
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid lightblue;
+  outline: none;
+  background-color: aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  padding: 10px 1rem;
+}
+.quote-box h2 button:hover {
+  background-color: dodgerblue;
+  border: 1px solid dodgerblue;
+  color: white;
+}
+.quote-box blockquote {
+  background-color: snow;
+  font-family: "Akaya Telivigala", cursive;
+  margin: 0;
+  border: 0.5px solid lightgray;
+  padding: 1rem;
+  text-align: left;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+blockquote cite {
+  text-align: left;
+  font-size: 1.5rem;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+blockquote figcaption {
+  text-align: right;
+  font-weight: 400;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
 }
